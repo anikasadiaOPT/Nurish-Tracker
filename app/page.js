@@ -132,8 +132,8 @@ export default function Home(){
         {
           inventory.map(({name, quantity}) =>(
             <Box key = {name} 
-            width = "800px" 
-            height = "50px" 
+            width = "700px" 
+            height = "0.5px" 
             display = "flex"
             flexDirection = "row"
             alignItems = "center"
