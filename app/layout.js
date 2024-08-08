@@ -3,13 +3,9 @@ export default function RootLayout({ children }) {
     <html>
       <head>
         <title>Pantry Tracker</title>
-        <meta charset="utf-8" />
+        <meta charSet="utf-8" />
         
-      </head>
-      
-
-
-          
+      </head>    
         <body style={{ backgroundColor: '#000000' }}>
         {children}
       </body>
