@@ -3,7 +3,7 @@ import {Box, Button, Stack,Modal, TextField, Typography} from '@mui/material';
 import Head from 'next/head';
 import {collection,deleteDoc,doc,getDocs,getDoc,query,setDoc, docRef} from 'firebase/firestore';
 import {useState,useEffect } from 'react';
-import {firestore} from '../firebase';
+import {firestore,analytics} from '../firebase';
 
 export default function Home(){
   const [inventory, setInventory] = useState([])
